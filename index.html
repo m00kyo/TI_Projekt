@@ -1,0 +1,365 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jersey+10&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>PIXMA</title>
+    <script src="script.js" defer></script>
+  </head>
+
+  <body style="--sixty: #e7acdf6d; --thrity: #91185c; --ten: #db0071">
+    <nav>
+      <div class="logo">PIXMA</div>
+      <ul class="desktop-menu">
+        <li><a href="#barwy">Barwy</a></li>
+        <li><a href="#psychologia">Psychologia</a></li>
+        <li><a href="#proporcje">Proporcje</a></li>
+        <li><a href="#harmoniabarw">Harmonia barw</a></li>
+        <li><a href="#tester">Tester</a></li>
+      </ul>
+      <button class="burger">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+        </svg>
+      </button>
+    </nav>
+    <ul class="mobile-menu">
+      <li><a href="#barwy">Barwy</a></li>
+      <li><a href="#psychologia">Psychologia</a></li>
+      <li><a href="#proporcje">Proporcje</a></li>
+      <li><a href="#harmoniabarw">Harmonia barw</a></li>
+      <li><a href="#tester">Tester</a></li>
+    </ul>
+
+    <!-- SEKCJA GŁÓWNEGO BANERU-->
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Teoria kolorów w projektowaniu stron internetowych</h1>
+        <p>
+          Teoria kolorów to jedno z najpotężniejszych narzędzi projektanta stron webowych. Dobrze dobrana paleta nie tylko sprawia, że strona wygląda
+          profesjonalnie, ale przede wszystkim kieruje uwagą użytkownika, buduje zaufanie i ułatwia nawigację.
+        </p>
+      </div>
+    </section>
+
+    <!-- SEKCJA BARW -->
+    <section class="colorwheel">
+      <div class="content colorwheel-content">
+        <h2 id="barwy">Koło barw i relacje</h2>
+        <p>
+          W tradycyjnym modelu artystycznym (RYB - Red, Yellow, Blue), koło składa się z 12 kolorów podzielonych na trzy grupy. Koło dzielimy również
+          na temperaturę. Jedna połowa to barwy ciepłe, a druga to barwy zimne.
+        </p>
+
+        <div class="container-items">
+          <button class="item-color" style="--color: #ff0000"></button>
+          <button class="item-color" style="--color: #ffe600"></button>
+          <button class="item-color" style="--color: #0000ff"></button>
+        </div>
+        <p class="item-title">
+          Barwy podstawowe - są one fundamentem, nie możemy uzyskać ich przez pomieszanie kolorów. Wszystkie inne barwy powstają z ich połączenia!
+        </p>
+        <div class="container-items">
+          <button class="item-color" style="--color: #009933"></button>
+          <button class="item-color" style="--color: #6600ff"></button>
+          <button class="item-color" style="--color: #ff9900"></button>
+        </div>
+        <p class="item-title">Barwy pochodne - powstają ze zmieszania dwóch barw podstawowych w różnych proporcjach.</p>
+
+        <div class="container-items">
+          <button class="item-color" style="--color: #8dd742"></button>
+          <button class="item-color" style="--color: #ffcc00"></button>
+          <button class="item-color" style="--color: #ff5600"></button>
+          <button class="item-color" style="--color: #a829a0"></button>
+          <button class="item-color" style="--color: #724cff"></button>
+          <button class="item-color" style="--color: #208678"></button>
+        </div>
+        <p class="item-title">Barwy trzeciorzędne - powstają ze zmieszania barwy podstawowej z sąsiadującą barwą pochodną.</p>
+      </div>
+    </section>
+
+    <!-- SEKCJA PSYCHOLOGII KOLORÓW -->
+    <section class="psychology">
+      <div class="content psychology-content">
+        <h2 id="psychologia">Psychologia kolorów</h2>
+        <p>
+          Psychologia kolorów w projektowaniu stron internetowych to nie tylko kwestia estetyki. Jest to potężne narzędzie sterowania zachowaniami
+          użytkownika (UX/UI). Kolory wpływają na to, jak szybko ufamy marce, czy czujemy potrzebę pilnego zakupu i czy tekst jest dla nas czytelny.
+          Każdy kolor wywołuje specyficzne skojarzenia, które są powszechnie wykorzystywane w konkretnych branżach.
+        </p>
+
+        <!-- TABELKA-->
+        <h3>Pomyśl co mają oznaczać te kolory!</h3>
+        <table>
+          <thead>
+            <tr>
+              <th>Kolor</th>
+              <th>Emocje/Przekaz</th>
+              <th>Zastosowanie</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Niebieski</td>
+              <td>Zaufanie, spokój, profesjonalizm</td>
+              <td>Bankowość, medycyna, IT</td>
+            </tr>
+            <tr>
+              <td>Czerwony</td>
+              <td>Energia, pasja, pilność, ostrzeżenie</td>
+              <td>Wyprzedaże, rozrywka, gastronomia</td>
+            </tr>
+            <tr>
+              <td>Zielony</td>
+              <td>Natura, wzrost, zdrowie, ekologia</td>
+              <td>Produkty bio, finanse, turystyka</td>
+            </tr>
+            <tr>
+              <td>Żółty</td>
+              <td>Optymizm, uwaga, radość</td>
+              <td>Branding kreatywny, sygnały ostrzegawcze</td>
+            </tr>
+            <tr>
+              <td>Biały</td>
+              <td>Czystość, przestrzeń, nowoczesność</td>
+              <td>Design minimalistyczny (np. Apple), serwisy medyczne</td>
+            </tr>
+            <tr>
+              <td>Czarny</td>
+              <td>Luksus, elegancja, powaga</td>
+              <td>Moda premium, luksusowe auta</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- SEKCJA ZASAD ITP -->
+    <section class="rule">
+      <div class="content">
+        <h2 id="proporcje">Zasada proporcji</h2>
+        <p class="percent">60-30-10</p>
+        <p>
+          Zasada 60-30-10 to jeden z najbardziej użytecznych schematów w projektowaniu. Schemat ten ma na celu wizualne uporządkowanie strony, tak aby
+          nie wyglądała ona chaotycznie i niechlujnie. Działa ona w oparciu o hierarchię: Tło – Baza – Akcent. Nie chodzi tylko o to, jakiego koloru
+          użyjesz, ale gdzie go umieścisz.
+        </p>
+
+        <!-- TU BĘDZIE DODATKOWO SEKCJA KART DOBRY VS ZŁY DOBÓR -->
+        <ul class="proportions-list">
+          <li style="font-size: 2rem">♡</li>
+          <li>
+            60% (kolor dominujący) - Ten kolor zajmuje największą powierzchnię, spaja całość i zazwyczaj jest najbardziej neutralny lub stonowany.
+            Używamy go zazwyczaj jako tło.
+          </li>
+          <li>
+            30% (kolor uzupełniający) - Ten kolor wspiera główny, ale jest od niego wyraźnie inny. Tworzy głębię i zainteresowanie, ale nie walczy o
+            główną uwagę. Używamy go do nagłówków, footerów, elementów graficznych itp.
+          </li>
+          <li>
+            10% (kolor akcentujący) - Kolor, który ma przyciągać wzrok, tworzy on element biżuteryjny. Zazwyczaj jest to kolor najbardziej kontrastowy
+            względem pozostałych dwóch. Używamy go go przycisków Call To Action, linków, ikonek.
+          </li>
+        </ul>
+
+        <!-- SEKCJA TIPÓW -->
+        <div class="card-container">
+          <div class="card" style="--grad: #dd4b96, #91185c">
+            <div class="title">Kontrast kolorów</div>
+            <div class="content">
+              <p>
+                Nie używaj czystej czerni do tesktu! Tworzy ona za za duży kontrast, który męczy wzrok. Przez ten sam powód nie powinno się używać
+                również czystej bieli do tła. Do cieni i ramek zamiast zwykłej czerni ze zmniejszonym kryciem, dodaj do niej koloru. Jeśli twoja
+                strona jest niebieska, możesz użyć bardzo ciemnego granatu.
+              </p>
+            </div>
+          </div>
+
+          <div class="card" style="--grad: #dd4b96, #91185c">
+            <div class="title">Hierarchia przycisków</div>
+            <div class="content">
+              <p>
+                Nie każdy przycisk jest tak samo ważny. Jeśli na ekranie masz dwa przyciski: "Zapisz" i "Anuluj", nie mogą wyglądać tak samo. Główny
+                przycisk (ten do najważniejszej akcji, np. Kup teraz!) możesz wypełnić kolorem. Drugorzędny może mieć tylko obrys z jasnym tłem (np.
+                Zobacz szczegóły). Trzeciorzędny przycisk może wyglądać jak zwyły link (np. Anuluj).
+              </p>
+            </div>
+          </div>
+
+          <div class="card" style="--grad: #dd4b96, #91185c">
+            <div class="title">Przestrzeń (whitespace)</div>
+            <div class="content">
+              <p>
+                Zamiast oddzielać sekcję liniami (border), możesz użyć do tego po prostu pustej przestrzeni. Odsuń od siebie elementy, które chcesz
+                oddzielić. Pamiętaj, że elementy które są ze sobą powiązane powinny być bliżej siebie, niż te nie powiązane ze sobą. Na przykład:
+                margines dolny nagłówka powinien być znacznie mniejszy niż margines górny.
+              </p>
+            </div>
+          </div>
+
+          <div class="card" style="--grad: #dd4b96, #91185c">
+            <div class="title">Lepsze gradienty</div>
+            <div class="content">
+              <p>
+                Kiedy robisz gradient, nie wybieraj po prostu koloru A i ciemniejszej wersji koloru A. To daje "brudny" środek gradientu (gray dead
+                zone). Aby gradient wyglądał naturalnie i soczyście, musisz wymusić na komputerze dłuższą drogę, czyli drogę "naokoło", wzdłuż koła
+                barw, a nie na skróty przez środek (bo właśnie wtedy tworzą się szare piksele).
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- HARMONIA BARW -->
+    <section class="harmony">
+      <div class="content">
+        <h2 id="harmoniabarw">Harmonia barw</h2>
+        <p>
+          Większość udanych projektów opiera się na kole kolorów. Teoria harmonii barw w projektowaniu cyfrowym stanowi próbę uporządkowania ludzkiej
+          percepcji wzrokowej w system logicznych i matematycznych zależności. Występują różne sposoby dobierania palet kolorystycznych. Oto kilka
+          popularnych schematów harmonii barw:
+        </p>
+        <div class="color_harmony">
+          <img src="mono.webp" alt="" srcset="" height="260px" width="260px" />
+          <img src="analog.webp" alt="" srcset="" height="260px" width="260px" />
+          <img src="triada.png" alt="" srcset="" height="260px" width="260px" />
+        </div>
+        <p>
+          Na pierwszym obrazku widzimy monochromatyzm, czyli różne odcienie tego samego koloru. W tym układzie bardzo trudno popełnić błąd, jest to
+          najprostszy układ. Drugi obrazek to kolory analogiczne, czyli sąsiadujące ze sobą na kole barw. Szerszy zakres kolorów niż w przypadku
+          schematu monochromatycznego, ale przy odpowiednim doborze, tworzą wciąż harmonijne, ale bardziej przyciągające wzrok układy. Trzeci obrazek
+          to triada, czyli trzy kolory równomiernie rozmieszczone na kole barw. Aby uzyskać w triadzie harmonijne połączenie kolorów, jeden z nich
+          powinien dominować, a pozostałe dwa pełnić role uzupełniające.
+        </p>
+      </div>
+    </section>
+    <!-- SEKCJA PICKERA JS-->
+    <section class="picker">
+      <h2 id="tester">Spróbuj wybrać swoją kolorystyke!</h2>
+      <div class="pickers">
+        <div>
+          <input type="color" name="sixty" id="sixty" value="#fee7fe" />
+          <label for="sixty">60%</label>
+        </div>
+        <div class="picker30">
+          <img src="sad.png" alt="" srcset="" class="emoji sad" style="display: none" height="55px" width="55px" />
+          <img src="happy.png" alt="" srcset="" class="emoji happy" height="55px" width="55px" />
+          <input type="color" name="thirty" id="thirty" value="#91185c" />
+          <label for="thirty">30%</label>
+        </div>
+        <div class="picker10">
+          <img src="sad.png" alt="" srcset="" class="emoji sad" style="display: none" height="55px" width="55px" />
+          <img src="happy.png" alt="" srcset="" class="emoji happy" height="55px" width="55px" />
+          <input type="color" name="ten" id="ten" value="#e6067a" />
+          <label for="ten">10%</label>
+        </div>
+      </div>
+
+      <div class="templates">
+        <div class="template">
+          <p class="form-title">Utwórz konto</p>
+          <p class="form-subtitle">Podaj swój adres email aby utworzyć konto</p>
+          <div class="form">
+            <label for="email">Email</label>
+            <input type="email" placeholder="bla@gmail.com" id="email" /> <br />
+            <label for="password">Hasło</label>
+            <input type="password" id="password" /> <br />
+            <button class="submit">Utwórz konto</button>
+          </div>
+          <div class="divider">
+            <span></span>
+            <p>zaloguj się z</p>
+            <span></span>
+          </div>
+          <div class="socialmedia">
+            <button>
+              <svg viewBox="0 0 438.549 438.549">
+                <path
+                  fill="currentColor"
+                  d="M409.132 114.573c-19.608-33.596-46.205-60.194-79.798-79.8-33.598-19.607-70.277-29.408-110.063-29.408-39.781 0-76.472 9.804-110.063 29.408-33.596 19.605-60.192 46.204-79.8 79.8C9.803 148.168 0 184.854 0 224.63c0 47.78 13.94 90.745 41.827 128.906 27.884 38.164 63.906 64.572 108.063 79.227 5.14.954 8.945.283 11.419-1.996 2.475-2.282 3.711-5.14 3.711-8.562 0-.571-.049-5.708-.144-15.417a2549.81 2549.81 0 01-.144-25.406l-6.567 1.136c-4.187.767-9.469 1.092-15.846 1-6.374-.089-12.991-.757-19.842-1.999-6.854-1.231-13.229-4.086-19.13-8.559-5.898-4.473-10.085-10.328-12.56-17.556l-2.855-6.57c-1.903-4.374-4.899-9.233-8.992-14.559-4.093-5.331-8.232-8.945-12.419-10.848l-1.999-1.431c-1.332-.951-2.568-2.098-3.711-3.429-1.142-1.331-1.997-2.663-2.568-3.997-.572-1.335-.098-2.43 1.427-3.289 1.525-.859 4.281-1.276 8.28-1.276l5.708.853c3.807.763 8.516 3.042 14.133 6.851 5.614 3.806 10.229 8.754 13.846 14.842 4.38 7.806 9.657 13.754 15.846 17.847 6.184 4.093 12.419 6.136 18.699 6.136 6.28 0 11.704-.476 16.274-1.423 4.565-.952 8.848-2.383 12.847-4.285 1.713-12.758 6.377-22.559 13.988-29.41-10.848-1.14-20.601-2.857-29.264-5.14-8.658-2.286-17.605-5.996-26.835-11.14-9.235-5.137-16.896-11.516-22.985-19.126-6.09-7.614-11.088-17.61-14.987-29.979-3.901-12.374-5.852-26.648-5.852-42.826 0-23.035 7.52-42.637 22.557-58.817-7.044-17.318-6.379-36.732 1.997-58.24 5.52-1.715 13.706-.428 24.554 3.853 10.85 4.283 18.794 7.952 23.84 10.994 5.046 3.041 9.089 5.618 12.135 7.708 17.705-4.947 35.976-7.421 54.818-7.421s37.117 2.474 54.823 7.421l10.849-6.849c7.419-4.57 16.18-8.758 26.262-12.565 10.088-3.805 17.802-4.853 23.134-3.138 8.562 21.509 9.325 40.922 2.279 58.24 15.036 16.18 22.559 35.787 22.559 58.817 0 16.178-1.958 30.497-5.853 42.966-3.9 12.471-8.941 22.457-15.125 29.979-6.191 7.521-13.901 13.85-23.131 18.986-9.232 5.14-18.182 8.85-26.84 11.136-8.662 2.286-18.415 4.004-29.263 5.146 9.894 8.562 14.842 22.077 14.842 40.539v60.237c0 3.422 1.19 6.279 3.572 8.562 2.379 2.279 6.136 2.95 11.276 1.995 44.163-14.653 80.185-41.062 108.068-79.226 27.88-38.161 41.825-81.126 41.825-128.906-.01-39.771-9.818-76.454-29.414-110.049z"
+                ></path>
+              </svg>
+              GitHub
+            </button>
+            <button>
+              <svg role="img" viewBox="0 0 24 24">
+                <path
+                  fill="currentColor"
+                  d="M12.48 10.92v3.28h7.84c-.24 1.84-.853 3.187-1.787 4.133-1.147 1.147-2.933 2.4-6.053 2.4-4.827 0-8.6-3.893-8.6-8.72s3.773-8.72 8.6-8.72c2.6 0 4.507 1.027 5.907 2.347l2.307-2.307C18.747 1.44 16.133 0 12.48 0 5.867 0 .307 5.387.307 12s5.56 12 12.173 12c3.573 0 6.267-1.173 8.373-3.36 2.16-2.16 2.84-5.213 2.84-7.667 0-.76-.053-1.467-.173-2.053H12.48z"
+                ></path>
+              </svg>
+              Google
+            </button>
+          </div>
+        </div>
+        <div class="template" style="display: flex; flex-direction: column; gap: 20px">
+          <div class="friend">
+            <div class="avatar">B</div>
+            <div class="friend-info">
+              <p class="friend-name">Basia Kruk</p>
+              <p class="friend-mail">bla@gmail.com</p>
+            </div>
+          </div>
+          <div class="chatroom">
+            <div class="messages">
+              <div class="message from-friend">Hejka</div>
+              <div class="message from-me">Hej, co tam?</div>
+              <div class="message from-friend">Gram w POE, a ty?</div>
+              <div class="message from-me">A JA W SUMIE GRAM TEZ WIEC NIE MOGE PISAC NARA</div>
+            </div>
+            <div class="send">
+              <input type="text" placeholder="Napisz wiadomość..." />
+              <button>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="m12.75 15 3-3m0 0-3-3m3 3h-7.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="template">
+          <div style="display: flex; height: 100%; flex-direction: column">
+            <p class="form-title">Cel kaloryczny</p>
+            <p class="form-subtitle">Ustaw swoje dzienne zapotrzebowanie kaloryczne.</p>
+            <div class="calc">
+              <button>-</button>
+              <div class="kcal">
+                <p>1000</p>
+                <span>KALORIE/DZIEŃ</span>
+              </div>
+              <button>+</button>
+            </div>
+            <div class="graph">
+              <div style="--h: 100%"></div>
+              <div style="--h: 70%"></div>
+              <div style="--h: 50%"></div>
+              <div style="--h: 70%"></div>
+              <div style="--h: 80%"></div>
+              <div style="--h: 100%"></div>
+              <div style="--h: 20%"></div>
+              <div style="--h: 60%"></div>
+              <div style="--h: 30%"></div>
+              <div style="--h: 90%"></div>
+              <div style="--h: 76%"></div>
+              <div style="--h: 100%"></div>
+            </div>
+            <button class="submit">Potwierdź</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="footer-content">
+        <p>&copy; 2026 Projekt autorstwa Oliwia Stoś 135213</p>
+      </div>
+    </footer>
+  </body>
+</html>
