@@ -170,26 +170,6 @@ section {
   }
 }
 
-.item-color:hover + * {
-  transform: scale(1.3);
-  z-index: 9999;
-}
-
-.item-color:hover + * + * {
-  transform: scale(1.15);
-  z-index: 999;
-}
-
-.item-color:has(+ *:hover) {
-  transform: scale(1.3);
-  z-index: 9999;
-}
-
-.item-color:has(+ * + *:hover) {
-  transform: scale(1.15);
-  z-index: 999;
-}
-
 .psychology-content {
   h3 {
     margin-top: 50px;
