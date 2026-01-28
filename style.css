@@ -747,11 +747,13 @@ footer {
     padding: 100px 20px;
   }
 
-  .card {
+  .template {
     width: 100%;
   }
+}
 
-  .template {
+@media screen and (max-width: 900px) {
+  .card {
     width: 100%;
   }
 }
